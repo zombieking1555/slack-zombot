@@ -22,10 +22,11 @@ app.command("/zsb-help", async ({ ack, respond }) => {
   await respond({
     text:
       `Available Commands:
-/dsb-ping - Check bot latency
-/dsb-catfact - Get a cat fact
-/dsb-joke - Get a random joke
-/dsb-help - Show this help message`
+/zsb-ping - Check bot latency
+/zsb-catfact - Get a cat fact
+/zsb-joke - Get a random joke
+/zsb-help - Show this help message
+/zsb-holiday <COUNTRY_CODE> [MM/DD] - Get holidays for a country, and optionally filter by date.`
   });
 });
 
