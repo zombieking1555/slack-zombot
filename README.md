@@ -4,7 +4,7 @@ A Slack bot built with Node.js and Slack Bolt that follows HackClubs mission tem
 
 ![Demo of the bot's usage](assets/slack-zombot.gif) 
 
-Test it out in the [Hackclub Slack server](https://app.slack.com/client/E09V59WQY1E/D0B9FUAU1UY), Using any of the commands below:
+Test it out in the [Hackclub Slack server](https://app.slack.com/client/E09V59WQY1E/C0APH2MMHH7), Using any of the commands below:
 
 ## Commands
 
