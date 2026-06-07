@@ -1,6 +1,7 @@
 # Slack Zombot
 
 A Slack bot built with Node.js and Slack Bolt that follows HackClubs mission template!
+Test it out in the Hackclub Slack server, Using any of the commands below:
 
 ## Commands
 
