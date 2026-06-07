@@ -57,7 +57,7 @@ ${response.data.punchline}`
 });
 
 
-// ...existing code...
+
 app.command("/zsb-holiday", async ({ command, ack, respond }) => {
   await ack();
 
@@ -68,9 +68,6 @@ app.command("/zsb-holiday", async ({ command, ack, respond }) => {
 
   const mode = (parts[0] || "").toLowerCase();
 
-  // =========================
-  // LIST MODE
-  // =========================
   if (mode === "list") {
     try {
     const query = parts.slice(1).join(" ").toLowerCase();
